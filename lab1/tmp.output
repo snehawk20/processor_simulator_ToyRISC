@@ -1,0 +1,21 @@
+Symbol Table :
+[{fail=15, loop=9, success=17, main=6, l=1, n=0}]
+
+Parsed instructions :
+[[PC=6	load	[Register:0]	[Label:a]	[Register:3]
+, PC=7	addi	[Register:0]	[Immediate:2]	[Register:4]
+, PC=8	bgt	[Register:4]	[Register:3]	[Label:fail]
+, PC=9	mul	[Register:4]	[Register:4]	[Register:5]
+, PC=10	div	[Register:3]	[Register:4]	[Register:6]
+, PC=11	beq	[Register:31]	[Register:0]	[Label:fail]
+, PC=12	addi	[Register:4]	[Immediate:1]	[Register:4]
+, PC=13	bgt	[Register:5]	[Register:3]	[Label:success]
+, PC=14	jmp	null	null	[Label:loop]
+, PC=15	subi	[Register:0]	[Immediate:1]	[Register:10]
+, PC=16	end	null	null	null
+, PC=17	addi	[Register:0]	[Immediate:1]	[Register:10]
+, PC=18	end	null	null	null
+]]
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at generic.Simulator.simulate(Simulator.java:287)
+	at main.Main.main(Main.java:21)

@@ -1,0 +1,4 @@
+Number of instructions executed = 22
+Number of cycles taken = 22
+Number of data hazard stalls = 4
+Number of times instruction on wrong branch path is taken= 0
