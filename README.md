@@ -1,31 +1,11 @@
-# INSTRUCTIONS 
+# ToyRISC Processor Simulator 
 
-  * Run the following commands to get (or `pull`) the 
-  materials added by the instructor in the branch `<branch-name>`
-  ```
-  $ git pull
-  $ git branch -a 
-  $ git checkout <branch-name>
-  ```
-  
-  * You will be working on the `<branch-name>` in your local 
-  repository (machine). 
-  
-  * Work on your local repository (machine) like you worked 
-  for the previous labs. 
-  
-  * commit and push changes as always to submit your code.
-  Commands given below (as reference)
-  ```
-  # you will be working on the branch <branch-name> here
-  
-  $ git status
-  $ git add . 
-  $ git commit -m "msg"
-  $ git pull
-  $ git push
-  ```
-  
-# RELEASE NOTES
+* _lab1_ - Some programs written in _ToyRISC_ (used as benchmarks in the next few labs)
+* _lab2_ - An assembler for the _ToyRISC_ ISA
+* _lab3_ - A single cycle processor simulator for _ToyRISC_
+* _lab4_ - Updating to a 5 stage pipelined core model
+* _lab5_ - Upgrading _lab4_ to a discrete event simulator
+* _lab6_ - Added caches to the simulated memory system
 
-  * 08-March, 2022 - Released Lab 3 in branch `lab3`
+
+This was part of the course CS2160 - Computer Organisation Lab offered by Indian Institute of Technology, Palakkad.
